@@ -1,4 +1,4 @@
-local version = "0.0.2"
+local version = "0.0.3"
 
 function Usage()
 	Log("Usage : ekitoolsbox [option]\n  option :  [-v | version] [-cmd | command]")

@@ -50,7 +50,7 @@ RegisterConsoleCommandHandler("giveweapon", function(FullCommand, Parameters, Ar
     end
 
 	for i = 1, Quantity do
-		local ItemCreated = ItemSystem:CreateWeaponItem(FName(HandleCodeName),FName(BladeCodeName))
+		local ItemCreated = ItemSystem:CreateWeaponItem(FName(HandleCodeName),FName(BladeCodeName),0)
 		if not ItemCreated:IsValid() then
 			Log("Couldn't create the Item !\nHandle or Blade CodeName is probably wrong.")
 			return false
