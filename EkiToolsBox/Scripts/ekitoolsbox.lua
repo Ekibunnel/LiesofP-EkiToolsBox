@@ -1,11 +1,11 @@
-local version = "0.0.3"
+local version = "0.0.4"
 
 function Usage()
 	Log("Usage : ekitoolsbox [option]\n  option :  [-v | version] [-cmd | command]")
 end
 
 function CustomCmd()
-	Log("Commands:\n   dumpitemscodename\n   giveallitems\n   giveitem\n   giveweapon")
+	Log("Commands:\n   dumpitemscodename\n   deleteitem\n   giveallitems\n   giveitem\n   giveweapon")
 end
 
 function EkiToolsBoxVersion()

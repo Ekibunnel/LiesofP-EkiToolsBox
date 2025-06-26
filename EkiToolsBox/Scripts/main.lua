@@ -7,6 +7,8 @@ function Log(Message)
     end
 end
 
+
+require("deleteitem")
 require("giveitem")
 require("giveweapon")
 require("dumpitemscodename")
