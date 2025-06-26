@@ -5,6 +5,8 @@ to be used with https://github.com/UE4SS-RE/RE-UE4SS
 Commands:
 - dumpitemscodename
   - will dump every item code name to a json file
+- deleteitem
+  - Usage : deleteitem [Item CodeName] [Quantity]
 - giveallitems
   - Usage : giveallitems [Quantity]
 - giveitem
